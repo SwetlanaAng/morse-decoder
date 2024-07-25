@@ -58,7 +58,6 @@ function decode(expr) {
         if(letter!=''){
             ans+=MORSE_TABLE[letter];
         }
-        
         i+=10
     }
     return ans;
